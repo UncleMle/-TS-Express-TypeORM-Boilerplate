@@ -31,8 +31,6 @@ AppDataSource.initialize().then(async() => {
 
     api.Log(`All `+cyan(`${routes.length}`)+` routes were loaded.`);
 
-    api.Log('Socket events loaded');
-
 }).catch(err => {api.Log(err)})
 
 export default app;
