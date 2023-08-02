@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es2020", "esnext"
+      ],
+      "baseUrl": "",
+      "paths": {
+         "@types": ["shared/types.ts"],
+         "@api": ["api/api"]
+      },
+      "module": "commonjs",
+      "target": "es2020",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "esModuleInterop": true
+   }
+}
